@@ -1,19 +1,21 @@
-# Gradio Demo
+---
+title: Türkçe E-Posta Yumuşatıcı
+emoji: 📧
+colorFrom: blue
+colorTo: green
+sdk: gradio
+sdk_version: 4.44.0
+python_version: "3.12"
+app_file: app.py
+pinned: false
+license: mit
+---
 
-Bu klasör, Hugging Face Spaces üzerinde barındırılan canlı demonun
-kaynak dosyalarını içerir.
+# Türkçe E-Posta Yanlış Pozitif Spam Riski Azaltıcı
 
-**Canlı demo**: https://huggingface.co/spaces/HuseyinGH/turkish-email-softener
+Meşru fakat agresif tonlu Türkçe e-postaları kurumsal dile çevirip
+spam filtrelerine takılma riskini azaltır.
 
-## Dosyalar
+**Yöntem:** TF-IDF + Linear SVM (tespit) + mT5-small (yumuşatma)
 
-- `app.py` — Gradio arayüzü
-- `requirements.txt` — Demo bağımlılıkları
-
-## Yerel Çalıştırma
-
-```bash
-cd demo
-pip install -r requirements.txt
-python app.py
-```
+Detaylar: [GitHub Repo](https://github.com/HuseyinGH/turkish-email-false-positive-reducer)

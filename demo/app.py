@@ -137,11 +137,15 @@ with gr.Blocks(title="Türkçe E-Posta Yumuşatıcı",
     gr.Markdown("### Örnekler")
     gr.Examples(
         examples=[
-            ["TRAFİK SİGORTANIZ GECİKTİ! BÜYÜK CEZA YİYECEKSİNİZ!!!"],
-            ["NETFLIX YENİLEME TARİHİNİ KAÇIRMAYIN! 21.05.2026 tarihinde "
-             "üyeliğiniz yenilenecek."],
-            ["Sayın öğrencimiz, kayıt yenileme süresi 12 Ekim tarihine kadar "
-             "devam etmektedir."],
+            ["DİKKAT SON GÜN!!! Performans formlarını doldurmadınız, bugün "
+             "saat 17:00'de sistem KAPANACAKTIR! Zamsız kalmak istemiyorsanız "
+             "HEMEN DOLDURUN!"],
+            ["TRAFİK SİGORTANIZ GECİKTİ! BÜYÜK CEZA YİYECEKSİNİZ!!! RAY Sigorta "
+             "poliçenizi yaptırmadan TRAFİĞE ÇIKMAYIN! Aracınız BAĞLANABİLİR, "
+             "HEMEN teklif alın!"],
+            ["GÜVENCE BEDELİNİZ EKSİK KALDI! EPDK sisteminde güncellenen 450 TL "
+             "tarife farkını hemen yatırmazsanız elektriğiniz KESİN OLARAK "
+             "kesilecek!"],
         ],
         inputs=inp,
     )
